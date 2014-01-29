@@ -1,0 +1,7 @@
+<% for question in @questions %>
+  <h2><%= link_to question.title, question %></h2>
+<% end %>
+<br/>
+<% if current_user %>
+  <%= link_to 'New Question', new_question_path %>
+<% end %>

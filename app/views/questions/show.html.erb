@@ -1,0 +1,6 @@
+<h1>Q: <%= @question.title %></h1>
+<h3>A: <%= @question.text %></h3><br/>
+- Started by <%= @question.users.first.username %><br/><br/>
+<% if current_user %>
+  <%= link_to 'Edit Question', edit_question_path(@question) %>
+<% end %>
