@@ -9,4 +9,4 @@ Each question has an answer column that can be edited by any authenticated user.
 
 Here is a screenshot:
 
-http://i.imgur.com/Fyo6i4x.png
+(http://i.imgur.com/Fyo6i4x.png)
